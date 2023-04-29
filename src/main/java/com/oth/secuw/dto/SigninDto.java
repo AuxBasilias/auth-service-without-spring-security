@@ -1,6 +1,8 @@
 package com.oth.secuw.dto;
 
 import com.oth.secuw.entities.User;
+import de.mkammerer.argon2.Argon2;
+import de.mkammerer.argon2.Argon2Factory;
 
 public class SigninDto {
     private String username;
@@ -32,6 +34,7 @@ public class SigninDto {
     public void setUsername(String username) {
         this.username = username;
     }
+
 
     public User.Role getRole() {
         return role;

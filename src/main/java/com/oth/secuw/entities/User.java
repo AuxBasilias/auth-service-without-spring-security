@@ -9,11 +9,11 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column
+    @Column(unique = true)
     private String username;
     @Column
     private String password;
-    @Column
+    @Column(unique = true)
     private String email;
     @Column
     private Role role;
@@ -31,6 +31,7 @@ public class User {
         Argon2 argon2 = Argon2Factory.create();
         String hashedPassword = argon2.hash(10, 65536, 1, password);
         this.password = hashedPassword;
+
     }
 
     public String getEmail() {
