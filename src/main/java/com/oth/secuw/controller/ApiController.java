@@ -128,7 +128,7 @@ public class ApiController {
 
     }
 
-    @PostMapping("/logout")
+    @GetMapping("/logout")
     public String logout(){
         if(AppConfig.getInstance().getAutorized()){
             AppConfig.getInstance().setUserConnected(null);
