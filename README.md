@@ -1,5 +1,5 @@
 # auth-service-without-spring-security
-This is an API where authorization and authentication are managed without using Spring Security
+This is an Spring boot rest API where authorization and authentication are managed without using Spring Security
 ## Features
 * User registration and login 
 * Password encryption using Argon2
