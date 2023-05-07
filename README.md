@@ -23,8 +23,8 @@ To build and run the project, follow these steps:
 
 * Clone the repository: `git clone https://github.com/AuxBasilias/auth-service-without-spring-security`
 * Navigate to the project directory: cd auth-service-without-spring-security
-* Build the project: mvnw clean install
-* Run the project: mvnw spring-boot:run 
+* Build the project: `mvnw clean install`
+* Run the project: `mvnw spring-boot:run`
 
 -> The application will be available at http://localhost:9000.
 
