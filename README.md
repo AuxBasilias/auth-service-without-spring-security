@@ -22,7 +22,7 @@ To get started with this project, you will need to have the following installed 
 To build and run the project, follow these steps:
 
 * Clone the repository: `git clone https://github.com/AuxBasilias/auth-service-without-spring-security`
-* Navigate to the project directory: cd auth-service-without-spring-security
+* Navigate to the project directory: `cd auth-service-without-spring-security`
 * Build the project: `mvnw clean install`
 * Run the project: `mvnw spring-boot:run`
 
@@ -39,7 +39,7 @@ To build and run the project, follow these steps:
 | GET | /authenrization/admin | Only authorized for admin |  |
 | GET | /authenrization/user | Only authorized for user |  |
 | GET | /who_is_connected | Shows who is connected |  |
-| GET | /logout | Only authorized for admin | To log out |
+| GET | /logout | To log out |  |
 
 ## Example of valid request body
 ##### <a id="signup">Sign up -> http://localhost:9000/signup</a>
